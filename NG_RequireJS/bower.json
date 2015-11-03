@@ -1,0 +1,24 @@
+{
+  "name": "ng_requirejs",
+  "description": "The use of RequireJS with AngularJS",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "requirejs": "~2.1.20"
+  }
+}

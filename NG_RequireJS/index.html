@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Using RequireJS with Angular.js</title>
+	<meta charset="utf-8" />
+    <style type="text/css">
+        table, td,th {
+          border:double;
+        }
+    </style>
+</head>
+<body ng-controller="ctrl">
+    <h1>Using RequireJS with Angular.js</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="p in Products">
+                <td>{{p.ProdId}}</td>
+                <td>{{p.ProdName}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>{{Message}}</div>
+    <script src="bower_components/requirejs/require.js" data-main="app/Main.js"></script>
+</body>
+</html>
